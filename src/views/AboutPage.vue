@@ -1,6 +1,6 @@
 <template>
     <Nav />
-    <div class="w-full h-screen flex items-center justify-center">
+    <div class="w-full h-screen flex items-center flex-col justify-center">
         <h1 class="text-3xl">This is about page</h1>
     </div>
 </template>
@@ -8,7 +8,8 @@
 <script>
 import Nav from '@/components/Nav.vue'
 export default {
-    components: { Nav }
+    
+    components: { Nav },
 }
 </script>
 
