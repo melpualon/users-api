@@ -15,8 +15,8 @@
                 <div class="font-semibold text-black-500">Welcome {{ user.username }}</div>
             </li>
             <li class="mr-6" v-if="user">
-                <router-link to="/albums">
-                    <div class="cursor-pointer">Users</div>
+                <router-link to="/about">
+                    <div class="cursor-pointer">About</div>
                 </router-link>
             </li>
             <li class="mr-6" v-if="user">
