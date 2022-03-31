@@ -17,7 +17,7 @@
                     </div>
                     <div class="w-full flex justify-end mt-5">
                         <button class="btn-blue mr-2">Login</button>
-                        <router-link to="/signup" class="btn-outline">Sign Up</router-link>
+                        <router-link to="/signup" class="btn-outline transition-all">Sign Up</router-link>
                     </div>
                 </form>
                 <div class="text-red-600 text-center">{{ error.message }}</div>

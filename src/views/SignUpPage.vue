@@ -20,7 +20,7 @@
                     </div>
                     <div class="w-full flex justify-end mt-5">
                         <button class="btn-blue mr-2">Sign Up</button>
-                        <router-link to="/" class="btn-outline">Login</router-link>
+                        <router-link to="/" class="btn-outline transition-all">Login</router-link>
                     </div>
                     <!-- <button class="btn-blue">Sign Up</button> -->
                 </form>
