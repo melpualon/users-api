@@ -29,7 +29,7 @@
                     <p class="text-gray-500 mb-5">Enter your code. Please check your email</p>
                     <div class="flex flex-col mt-2">
                         <label class="block text-gray-700 text-sm font-bold mb-2" for="password">Code</label>
-                        <input class=" border w-full py-2 px-3 text-gray-700 mb-3 leading-tight focus:outline-none focus:shadow-outline" type="text" v-model="code" />
+                        <input class="border w-full py-2 px-3 text-gray-700 mb-3 leading-tight focus:outline-none focus:shadow-outline" type="text" v-model="code" />
                         <button class="btn-blue" @click="confirmSignUp">Submit</button>
                     </div>
                 </div>
